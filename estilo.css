@@ -1,0 +1,61 @@
+
+.attribution { font-size: 11px; text-align: center; 
+}
+.attribution a { color: hsl(228, 45%, 44%); 
+}
+body{
+    background-image:url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    text-align: center;
+}
+@media (min-width: 400px) {
+    body{
+    background-image: url(images/pattern-background-mobile.svg);
+    background-color: hsl(225, 100%, 94%);
+    }
+}
+div#caixa{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+div#price{
+    width: 80%;
+    background-color: hsl(225, 100%, 98%);
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    display: flex;
+    padding: 15px;
+}
+p{
+    color: hsl(224, 23%, 55%);
+}
+img#icone{
+    padding: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+div#change{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+h2{
+    font-size: 15px;
+}
+div#paga{
+    display: inline-grid;
+    }
+input{
+    border-radius: 5px;
+}
+input#pagamento{
+    background-color: hsl(245, 75%, 52%);
+    text-decoration: #ffffff;
+}
